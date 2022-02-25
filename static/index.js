@@ -348,11 +348,11 @@
             return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
         }
         SubmitResults();
-        if (score <= 49) return '嘶，你真的好菜吖';
-        if (score <= 99) return '嘶，你是没吃饱饭嘛';
-        if (score <= 149) return '嘶，不愧是你';
-        if (score <= 199) return '嘶，您好棒吖！';
-        return '嘶，加入伞兵教罢！';
+        if (score <= 49) return '今天也要努力加油哦';
+        if (score <= 99) return '很棒呢';
+        if (score <= 149) return '你好强吖';
+        if (score <= 199) return '小伞兵被你折服了！';
+        return '快来榨我吧';
     }
 
     w.toStr = function(obj) {
